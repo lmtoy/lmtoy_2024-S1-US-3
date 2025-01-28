@@ -16,8 +16,8 @@ on['Taurus_Edge'] = [ 125403, 125405, 125407 ]
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1['Taurus_Peak']   = ""
-pars1['Taurus_Edge']   = ""
+pars1['Taurus_Peak']   = "pix_list=0  bank=0 dv=20 dw=20"    # birdies=3673,4519,4940,4942
+pars1['Taurus_Edge']   = "pix_list=0  bank=0 dv=20 dw=20"
 
 #        common parameters per source on subsequent runs (run1b, run2b), e.g. bank=0 for WARES
 pars2 = {}
