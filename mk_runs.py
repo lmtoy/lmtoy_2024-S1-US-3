@@ -6,7 +6,7 @@ import sys
 
 from lmtoy import runs
 
-project="2024-S1-US-03"
+project="2024-S1-US-3"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
