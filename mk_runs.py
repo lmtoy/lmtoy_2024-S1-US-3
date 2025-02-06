@@ -10,19 +10,20 @@ project="2024-S1-US-3"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
-on['Taurus_Peak'] = [ 125399, 125409, 125421, 125576, 125578 ]
+on['Taurus_Peak'] = [ 125399, 125409,-125421,-125576, 125578 ]
 on['Taurus_Edge'] = [ 125403, 125405, 125407 ]
 
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1['Taurus_Peak']   = "pix_list=0,1,2,3 dv=20 dw=20"    # birdies=3673,4519,4940,4942
-pars1['Taurus_Edge']   = "pix_list=0,1,2,3 dv=20 dw=20"
+pars1['Taurus_Peak']   = "pix_list=0,1,2,3 dv=4 dw=8 vlsr=6 b_order=1"
+pars1['Taurus_Edge']   = "pix_list=0,1,2,3 dv=4 dw=8 vlsr=6 b_order=1"
+# birdies only in pixel=2 but more complex than usual?
 
 #        common parameters per source on subsequent runs (run1b, run2b), e.g. bank=0 for WARES
 pars2 = {}
-pars2['Taurus_Peak']   = "pix_list=0 bank=0"
-pars2['Taurus_Edge']   = "pix_list=0 bank=0"
+pars2['Taurus_Peak']   = "pix_list=0,2 bank=0"
+pars2['Taurus_Edge']   = "pix_list=0,2 bank=0"
 
 #        common parameters per source on subsequent runs (run1c, run2c), e.g. bank=1 for WARES
 pars3 = {}
