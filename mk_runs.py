@@ -10,7 +10,7 @@ project="2024-S1-US-3"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
-on['Taurus_Peak'] = [ 125399, 125409,-125421,-125576, 125578 ]
+on['Taurus_Peak'] = [ 125399, 125409, 125421,-125576, 125578 ]
 on['Taurus_Edge'] = [ 125403, 125405, 125407 ]
 
 
