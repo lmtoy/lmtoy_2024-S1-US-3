@@ -1,11 +1,4 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
-#123456    QAFAIL
-#123456__1       extra bad beam     # pix_list=-4,-13,14,15
-#123456__0       standard           # pix_list=-13
-#
-#125399__0   no signal
-
-
 # 8 obsnums so far
 
 125399__0  .                             # birdies=4930,4940,4941,4942,4943,4944,4952
